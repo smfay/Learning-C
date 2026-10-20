@@ -11,7 +11,7 @@ int main() {
     } else if (c == '\t') {
       printf("\\t");
     } else {
-      putwchar(c);
+      putchar(c);
     }
   }
 }
